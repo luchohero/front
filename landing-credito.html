@@ -1,0 +1,231 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CACPE PASTAZA</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/responsiveslides.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/fonts.css">
+
+  <script src="js/vendor/modernizr.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/responsiveslides.min.js"></script>
+    <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 4
+      $("#slider4").responsiveSlides({
+        auto: true,
+        pager: false,
+        nav: true,
+        speed: 1300,
+        namespace: "callbacks",
+        before: function () {
+          $('.events').append("<li>before event fired.</li>");
+        },
+        after: function () {
+          $('.events').append("<li>after event fired.</li>");
+        }
+      });
+
+    });
+    </script>
+    <style type="text/css">
+body{background-color: #FAFAFA;}
+    </style>
+
+  </head>
+  <body>
+
+
+
+<div class="small-12 medium-12 large-12 azul"> 
+<div class="row small-10 medium-10 large-8">
+<div class="small-12 medium-3 large-2 columns back1 left">
+<img class="logo1"src="img/logo.png"> 
+</div>
+<div class=" small-11 medium-9 large-10 columns right letra-blanco">
+<h1 class="princ right">CREDITO AHORA MISMO</h1>
+
+
+</div>
+
+
+
+</div>
+<div class="row small-12 medium-12 large-10">
+
+
+<nav class="row top-bar small-12 medium-12 large-9 txtb azul" data-topbar data-options="sticky_on: large">
+  <ul class="title-area">
+
+    <li class="name ">
+
+      <h1 class="txtb"> </h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class=""><a href="#">INICIO</a></li>
+      <li class="has-dropdown">
+        <a href="#">PRODUCTOS</a>
+        <ul class="dropdown">
+          <li><a href="#">First link in dropdown</a></li>
+        </ul>
+      </li>
+      <li class="has-dropdown">
+        <a href="#">SERVICIOS</a>
+        <ul class="dropdown">
+          <li><a href="#">First link in dropdown</a></li>
+        </ul>
+      </li>
+      <li class=""><a href="#">VIDEOS</a></li>
+      <li class="active"><a href="#">CONSULTA DE SALDO</a></li>
+    </ul>
+
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li><a href="#"></a></li>
+    </ul>
+  </section>
+</nav>
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<div class="row small-12 medium-9 large-9 blanco panel">
+
+<div class="row small-12 blanco"> 
+<div class="small-7 columns">
+<h1>Crédito Rápido</h1>
+<P>Solicitalo ahora mismo que esperas, con el podras realizar tus sueños.
+<ul>
+<li>Casa Propia</li>
+<li>Tu Negocio</li>
+<li>Tu auto</li>
+</ul>
+
+</P>
+<a href="#" class="button large success right">Solicitalo</a>
+</div>
+<div class="small-4 columns">
+<h5>Testimonios</h5>
+<div class="flex-video ">
+        <iframe width="560" height="315" src="http://www.youtube.com/embed/m6U_DguXW48?rel=0" frameborder="0" allowfullscreen></iframe>
+
+</div>
+</div>
+</div>
+
+<div class=" small-12" data-equalizer>
+  <div class="small-7 columns  blanco" data-equalizer-watch>
+
+<!--<img class="landing" src="img/artesano.jpg">!-->
+  
+
+  </div>
+  <div class="small-12 medium-5 large-5 columns panel blanco" data-equalizer-watch>
+      <img src="img/usuario.png" class="left imguser">
+      <div class="txt5 panel">
+      <p class="left">
+        <h6>Socia CACPE PASTAZA </h6>
+        <p class="txt6">Esta socia trabaja con la CACPE PASTAZA</p>
+      </p>
+      </div>
+  </div>
+
+</div>
+
+<div class="row ">
+  <br>
+<div class=" small-5 small-centered  columns"> 
+
+<!-- Aqui el formulario -->
+<h3>Llena el formulario</h3>
+<p>Te llamaremos en 24Hrs</p>
+<form data-abide>
+  <div class="name-field small-12 columns">
+    <label>Nombre<small>required</small>
+      <input type="text" required >
+    </label>
+    <small class="error">Lo sentimos</small>
+
+
+  </div>
+  <div class="name-field small-6 columns">
+    <label>Telefono<small>required</small>
+      <input type="text" required >
+    </label>
+    <small class="error">Lo sentimos</small>
+
+
+  </div>
+  <div class="name-field small-6 columns">
+    <label>Ciudad<small>required</small>
+      <input type="text" required >
+    </label>
+    <small class="error">Lo sentimos</small>
+
+
+  </div>
+
+
+<div class="name-field small-7 columns small-centered">
+    <label>Monto a Solicitar<small>required</small>
+      <input type="text" required >
+    </label>
+    <small class="error">Lo sentimos</small>
+
+
+  </div>
+
+
+    <input type="submit" class="button columns"/>
+  
+</form>
+
+
+
+</div>
+
+  </div>
+
+<div class="row coop">Desarrollado por <a href="http://luchohero.com">DGS</a> </div>
+
+    <script src="js/foundation.min.js"></script>
+
+    <script src="js/foundation/foundation.orbit.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_ES/sdk.js#xfbml=1&appId=453123658068847&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+  </body>
+</html>
